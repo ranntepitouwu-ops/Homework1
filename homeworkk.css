@@ -1,0 +1,82 @@
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Times New Roman', Times, serif;
+  background-color: #08090a;
+  color: white;
+}
+
+nav {
+  width: 100%;
+  padding: 20px;
+  background-color: rgba(255, 255, 255, 0.05);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  backdrop-filter: blur(15px);
+  margin-bottom: 32px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.logo {
+font-family: 'Times New Roman', Times, serif;
+  font-size: 30px;
+  font-weight: 700;
+  color: rgb(248, 251, 251);
+  letter-spacing: 1px;
+  margin-right: auto;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 32px;
+  margin-right: 30px;
+}
+
+.nav-links li a {
+  position: relative;
+  font-size: 18px;
+  font-weight: 500;
+  text-decoration: none;
+  color: aliceblue;
+  transition: 0.3s;
+}
+
+.nav-links li a:hover {
+  color: rgb(235, 66, 40);
+  text-shadow: 0 0 10px rgb(244, 21, 21);
+}
+
+.btn {
+  padding: 8px 24px;
+  border-radius: 30px;
+  font-weight: 600;
+  font-size: 16px;
+  background-color: rgb(255, 0, 0);
+  color: #0f172a;
+  box-shadow: 0 0 15px rgb(245, 145, 143);
+  border: none;
+  cursor: pointer;
+  transition: 0.3s;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background-color: rgb(249, 102, 48);
+  box-shadow: 0 0 25px rgb(253, 28, 28);
+}
+
+h1 {
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 25px;
+  text-align: center;
+  color: #0f172a;
+  background-color: rgb(47, 54, 54);
+  box-shadow: 0 0 25px rgb(22, 26, 26);
+}
